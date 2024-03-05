@@ -1,8 +1,8 @@
 import { Contact, Events, ErrorPage, Home, Menu } from './Pages'
-import { createHashRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Header, Footer } from './Components'
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />,
