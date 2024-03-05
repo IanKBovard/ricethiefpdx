@@ -5,15 +5,13 @@ const Hero = () => (
         <h1 className='block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl'>
           Korean comfort food made from scratch
         </h1>
-        <p className='mt-3 text-2xl text-gray-800 dark:text-gray-400'>
+        <p className='mt-3 text-2xl text-gray-800'>
           Visit us at Hillsdale Farmers Market
         </p>
-        <p className='text-2xl text-gray-800 dark:text-gray-400'>
-          Sundays 9am -1pm
-        </p>
+        <p className='text-2xl text-gray-800'>Sundays 9am -1pm</p>
         <div className='mt-5 lg:mt-8 flex flex-col items-center gap-2 sm:flex-row sm:gap-3'>
           <a
-            className='w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1'
+            className='w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none'
             href='/menu'>
             View menu
           </a>

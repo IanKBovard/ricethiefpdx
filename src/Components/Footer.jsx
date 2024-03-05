@@ -1,8 +1,8 @@
 const Footer = () => (
-  <footer className='p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800'>
+  <footer className='p-4 bg-white md:p-8 lg:p-10'>
     <hr className='my-6 border-gray-700 sm:mx-auto lg:my-8' />
     <div className='mx-auto max-w-screen-xl text-center'>
-      <ul className='flex flex-wrap justify-center items-center mb-2 text-gray-800 dark:text-white'>
+      <ul className='flex flex-wrap justify-center items-center mb-2 text-gray-800'>
         <li>
           <a href='/' className='mr-4 hover:underline md:mr-6 '>
             Home
@@ -28,16 +28,14 @@ const Footer = () => (
       </ul>
     </div>
     <div className='sm:flex sm:items-center sm:justify-between'>
-      <span className='text-sm text-gray-500 sm:text-center dark:text-gray-400'>
+      <span className='text-sm text-gray-500 sm:text-center'>
         2023{' '}
         <a href='/' className='hover:underline'>
           Rice Thief LLC
         </a>
       </span>
       <div className='flex mt-4 space-x-6 sm:justify-center sm:mt-0'>
-        <a
-          href='#'
-          className='text-gray-500 hover:text-gray-900 dark:hover:text-white'>
+        <a href='#' className='text-gray-500 hover:text-gray-900'>
           <svg
             className='w-6 h-6'
             fill='currentColor'
@@ -50,9 +48,7 @@ const Footer = () => (
             />
           </svg>
         </a>
-        <a
-          href='#'
-          className='text-gray-500 hover:text-gray-900 dark:hover:text-white'>
+        <a href='#' className='text-gray-500 hover:text-gray-900'>
           <svg
             className='w-6 h-6'
             fill='currentColor'
