@@ -1,23 +1,24 @@
 import { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Nav = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
   return (
     <nav>
-      <section className='MOBILE-MENU flex lg:hidden'>
+      <section className='MOBILE-MENU flex lg:hidden scrollbar-hide'>
         <div
           className='HAMBURGER-ICON space-y-2 cursor-pointer'
           onClick={() => setIsNavOpen((prev) => !prev)}>
-          <span className='block h-0.5 w-8 bg-gray-800'></span>
-          <span className='block h-0.5 w-8 bg-gray-800'></span>
-          <span className='block h-0.5 w-8 bg-gray-800'></span>
+          <span className='block h-0.5 w-8 bg-brand-red'></span>
+          <span className='block h-0.5 w-8 bg-brand-red'></span>
+          <span className='block h-0.5 w-8 bg-brand-red'></span>
         </div>
         <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
           <div
-            className='CROSS-ICON absolute top-0 right-0 px-8 py-8 cursor-pointer'
+            className='CROSS- absolute top-0 right-0 px-8 py-8 cursor-pointer'
             onClick={() => setIsNavOpen(false)}>
             <svg
-              className='h-8 w-8'
+              className='h-8 w-8 text-brand-red'
               viewBox='0 0 24 24'
               fill='none'
               stroke='currentColor'
@@ -29,40 +30,68 @@ const Nav = () => {
             </svg>
           </div>
           <ul className='MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px] text-3xl'>
-            <li className='border-gray-800 my-8 uppercase '>
-              <a href='/'>Home</a>
+            <li className='my-8 uppercase text-brand-red'>
+              <NavLink
+                to='/'
+                onClick={() => setIsNavOpen(!isNavOpen)}>
+                Home
+              </NavLink>
             </li>
-            <li className='border-gray-800 my-8 uppercase'>
-              <a href='/events'>Events</a>
+            <li className='my-8 uppercase text-brand-red'>
+              <NavLink
+                to='/events'
+                onClick={() => setIsNavOpen(!isNavOpen)}>
+                Events
+              </NavLink>
             </li>
-            <li className='border-gray-800 my-8 uppercase'>
-              <a href='/contact'>Contact</a>
+            <li className='my-8 uppercase text-brand-red'>
+              <NavLink
+                to='/contact'
+                onClick={() => setIsNavOpen(!isNavOpen)}>
+                Contact
+              </NavLink>
             </li>
-            <li className=' border-gray-800 my-8 uppercase'>
-              <a href='/menu'>Menu</a>
+            <li className='my-8 uppercase text-brand-red'>
+              <NavLink
+                to='/menu'
+                onClick={() => setIsNavOpen(!isNavOpen)}>
+                Menu
+              </NavLink>
             </li>
           </ul>
         </div>
       </section>
-      <ul className='DESKTOP-MENU hidden space-x-8 lg:flex items-center'>
+      <ul className='DESKTOP-MENU hidden space-x-8 lg:flex items-center font-semibold'>
         <li>
-          <a className='hover:underline' href='/'>
+          <NavLink
+            className={({ isActive }) => {
+              return `hover:underline text-brand-red ${isActive ? 'underline' : null}`
+            }}
+            to='/'>
             Home
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a className='hover:underline' href='/events'>
+          <NavLink
+            className={({ isActive }) => {
+              return `hover:underline text-brand-red ${isActive ? 'underline' : null}`
+            }}
+            to='/events'>
             Events
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a className='hover:underline' href='/contact'>
+          <NavLink
+            className={({ isActive }) => {
+              return `hover:underline text-brand-red ${isActive ? 'underline' : null}`
+            }}
+            to='/Contact'>
             Contact
-          </a>
+          </NavLink>
         </li>
         <li>
           <a
-            className='w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none'
+            className='w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-brand-red text-brand-white hover:text-brand-red hover:bg-brand-pink disabled:opacity-50 disabled:pointer-events-none'
             href='/menu'>
             Menu
           </a>
@@ -74,9 +103,11 @@ const Nav = () => {
 
 const Header = () => {
   return (
-    <div className='flex items-center justify-between border-b border-gray-800 py-4  text-gray-800'>
+    <div className='flex items-center justify-between border-b border-brand-red py-4  mb-4'>
       <a href='/'>
-        <span>Rice Thief</span>
+        <span className='text-brand-red font-semibold uppercase'>
+          Rice Thief
+        </span>
       </a>
       <Nav />
     </div>

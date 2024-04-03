@@ -20,6 +20,16 @@ export default {
       borderWidth: {
         1: '1px',
       },
+      colors: {
+        'brand-pink': '#F8E1D7',
+        'brand-red': '#E54E35',
+        'brand-black': '#323232',
+        'brand-white': '#F8F0ea',
+        'brand-bg': '#FFF9f7',
+      },
+      fontFamily: {
+        'lora-regular': ['Lora', 'serif'],
+      },
     },
   },
   plugins: [],

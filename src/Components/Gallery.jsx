@@ -1,5 +1,5 @@
 const Gallery = () => (
-  <div>
+  <div className='mt-4'>
     <h2 className='mb-8 text-4xl tracking-tight font-extrabold text-center'>
       Follow me on Instagram
     </h2>

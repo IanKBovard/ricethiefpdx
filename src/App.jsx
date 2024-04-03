@@ -1,33 +1,26 @@
-import { Contact, Events, ErrorPage, Home, Menu } from './Pages'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { Contact, Events, Home, Menu } from './Pages'
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom'
 import { Header, Footer } from './Components'
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Home />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: '/contact',
-    element: <Contact />,
-  },
-  {
-    path: '/events',
-    element: <Events />,
-  },
-  {
-    path: '/menu',
-    element: <Menu />,
-  },
-])
 
 const App = () => {
   return (
-    <div className='container mx-auto mb-8 px-8'>
-      <Header />
-      <RouterProvider router={router} />
-      <Footer />
+    <div className='container mx-auto mb-8 px-8 font-lora-regular'>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path='*' element={<Navigate to='/' />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/events' element={<Events />} />
+          <Route path='/menu' element={<Menu />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   )
 }

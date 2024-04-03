@@ -74,6 +74,10 @@ body {
   /* 2 */
 }
 
+body:has(.showMenuNav) {
+  overflow: hidden;
+}
+
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
@@ -692,10 +696,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
   top: 0;
   left: 0;
-  background: white;
+  background: #fff9f7;
   z-index: 10;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
