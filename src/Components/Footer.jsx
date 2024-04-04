@@ -50,7 +50,7 @@ const Footer = () => {
           target='_blank'
           className='text-brand-black'>
           <svg
-            className='w-6 h-6'
+            className='w-6 h-6 opacity-100 md:opacity-60 hover:opacity-100'
             fill='currentColor'
             viewBox='0 0 24 24'
             aria-hidden='true'>
@@ -68,7 +68,7 @@ const Footer = () => {
           className='text-brand-black'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
-            className='w-6 h-6'
+            className='w-6 h-6 stroke-2 md:stroke-1 hover:stroke-2'
             fill='none'
             viewBox='0 0 24 24'
             stroke='currentColor'
