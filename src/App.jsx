@@ -1,5 +1,10 @@
 import { Contact, Events, Home, Menu } from './Pages'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom'
 import { Header, Footer } from './Components'
 
 const App = () => {
