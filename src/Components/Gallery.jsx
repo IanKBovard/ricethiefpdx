@@ -1,9 +1,9 @@
 const Gallery = () => (
-  <div className='mt-4'>
-    <h2 className='mb-8 text-4xl tracking-tight font-extrabold text-center'>
+  <section className='max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-8'>
+    <h2 className='mb-6 lg:mb-12 text-xl md:text-4xl font-bold text-center'>
       Follow me on Instagram
     </h2>
-    <div className='grid grid-cols-3 md:grid-cols-3 gap-4'>
+    <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
       <a
         target='_blank'
         rel='noopener noreferrer'
@@ -63,7 +63,7 @@ const Gallery = () => (
         />
       </a>
     </div>
-  </div>
+  </section>
 )
 
 export default Gallery

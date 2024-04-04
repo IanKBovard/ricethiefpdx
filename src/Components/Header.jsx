@@ -15,7 +15,7 @@ const Nav = () => {
         </div>
         <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
           <div
-            className='CROSS- absolute top-0 right-0 px-8 py-8 cursor-pointer'
+            className='CROSS-ICON absolute top-0 right-0 px-8 py-8 cursor-pointer'
             onClick={() => setIsNavOpen(false)}>
             <svg
               className='h-8 w-8 text-brand-red'
@@ -103,7 +103,7 @@ const Nav = () => {
 
 const Header = () => {
   return (
-    <div className='flex items-center justify-between border-b border-brand-red py-4  mb-4'>
+    <div className='flex items-center justify-between border-b border-brand-red py-4 mb-4'>
       <a href='/'>
         <span className='text-brand-red font-semibold uppercase'>
           Rice Thief
