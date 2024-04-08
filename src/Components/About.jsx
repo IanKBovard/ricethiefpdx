@@ -18,12 +18,12 @@ const About = () => (
       </div>
       <div className='text-brand-black lg:col-span-3 mt-10'>
         <p className='text-justify md:text-2xl'>
-          Rice Thief is a celebration of the deep yet sometimes
-          unspoken love behind the food we cook for others. Inspired
-          by the Korean food of her childhood, Chef Anna Lee lovingly
-          prepares all food from scratch in service of a singular
-          mission: to share delicious, heart-warming Korean food using
-          quality local, non-GMO ingredients you can feel good about.
+          Rice Thief celebrates the deep yet sometimes unspoken love
+          behind the food we cook for others. Inspired by the Korean
+          food of her childhood, Chef Anna Lee lovingly prepares all
+          food from scratch in service of a simple mission: to share
+          delicious, heart-warming Korean food using quality local,
+          non-GMO ingredients that you can feel good about.
         </p>
         <br />
         <p className='text-justify md:text-2xl italic'>
