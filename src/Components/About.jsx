@@ -26,7 +26,7 @@ const About = () => (
           quality local, non-GMO ingredients you can feel good about.
         </p>
         <br />
-        <p className='text-justify md:text-2xl'>
+        <p className='text-justify md:text-2xl italic'>
           Rice Thief, or bap do duk (밥도둑), refers to food so
           delicious that it steals the rice you must eat with it.
         </p>
