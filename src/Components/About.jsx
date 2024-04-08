@@ -17,7 +17,7 @@ const About = () => (
         />
       </div>
       <div className='text-brand-black lg:col-span-3 mt-10'>
-        <p className='text-justify md:text-left md:text-2xl'>
+        <p className='text-justify md:text-2xl'>
           Rice Thief is a celebration of the deep yet sometimes
           unspoken love behind the food we cook for others. Inspired
           by the Korean food of her childhood, Chef Anna Lee lovingly
@@ -26,7 +26,7 @@ const About = () => (
           quality local, non-GMO ingredients you can feel good about.
         </p>
         <br />
-        <p className='text-justify md:text-left md:text-2xl'>
+        <p className='text-justify md:text-2xl'>
           Rice Thief, or bap do duk (밥도둑), refers to food so
           delicious that it steals the rice you must eat with it.
         </p>
