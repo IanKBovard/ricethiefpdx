@@ -12,7 +12,7 @@ const Hero = () => (
           Visit us at Hillsdale Farmers&apos; Market
         </p>
         <p className='text-brand-black md:text-3xl'>
-          Sundays 9am -1pm
+          Sundays 9am - 1pm
         </p>
         <div className='mt-4'>
           <a
