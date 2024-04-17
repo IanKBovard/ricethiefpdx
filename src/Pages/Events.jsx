@@ -91,8 +91,14 @@ const Events = () => (
         </div>
         <div className='flex flex-col mt-8 items-center'>
           <h2 className='text-xl md:text-2xl'>
-            Hillsdale Farmers' Market
-            <p>1405 S Vermont St. Portland, OR 97219</p>
+            <a
+              href='https://www.hillsdalefarmersmarket.com/'
+              rel='noreferrer noopener'
+              target='_blank'
+              className='hover:underline'>
+              Hillsdale Farmers' Market
+              <p>1405 S Vermont St. Portland, OR 97219</p>
+            </a>
           </h2>
         </div>
       </div>

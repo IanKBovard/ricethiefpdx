@@ -6,18 +6,6 @@ const Menu = () => (
       </h2>
     </div>
     <div className='max-w-3xl mx-auto mt-2'>
-      <div className='flex flex-col  pt-4 sm:gap-10 sm:flex-row'>
-        <p className='sm:w-[150px] text-lg font-semibold sm:text-right shrink-0'>
-          mayak egg & <br />
-          bacon sandwich
-        </p>
-        <p className='text-justify sm:text-left'>
-          Jammy soy-marinated local organic egg (v), bacon, market
-          salad (v), & pickled onion on a multigrain English muffin
-          <p className='font-semibold'>sub vegan (v+) bacon 2</p>
-        </p>
-        <p className='font-semibold'>11</p>
-      </div>
       <div className='flex flex-col pt-2 sm:gap-10 sm:flex-row'>
         <p className='sm:w-[150px] text-lg font-semibold sm:text-right shrink-0 text-nowrap'>
           vegetarian gimbap

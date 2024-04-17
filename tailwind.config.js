@@ -23,6 +23,7 @@ export default {
       },
       fontFamily: {
         'lora-regular': ['Lora', 'serif'],
+        'agbalumo-regular': ['Agbalumo', 'system-ui'],
       },
     },
   },

@@ -106,7 +106,7 @@ const Header = () => {
     <div className='flex items-center justify-between border-b border-brand-red py-4 mb-4'>
       <a
         href='/'
-        className='text-brand-red font-semibold uppercase p-1 border hover:border-brand-red border-brand-bg'>
+        className='text-brand-red font-agbalumo-regular uppercase p-1 border hover:border-brand-red border-brand-bg text-5xl'>
         <span>Rice Thief</span>
       </a>
       <Nav />
