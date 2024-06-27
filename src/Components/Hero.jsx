@@ -9,23 +9,20 @@ const Hero = () => (
           made from scratch
         </h1>
         <p className='mt-2 text-brand-black md:text-3xl text-nowrap'>
-          Visit us at Hillsdale Farmers&apos; Market
-        </p>
-        <p className='text-brand-black md:text-3xl'>
-          Sundays 9am - 1pm
+          Let us cater your next event
         </p>
         <div className='mt-4'>
           <a
             className='w-autoc py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-brand-red text-brand-white hover:text-brand-red hover:bg-brand-pink disabled:opacity-50 disabled:pointer-events-none'
-            href='/menu'>
-            VIEW MENU
+            href='/contact'>
+            CONTACT US
           </a>
         </div>
       </div>
       <div className='lg:col-span-3 mt-10 lg:mt-0'>
         <img
           className='w-full rounded-xl'
-          src='/images/mayak.svg'
+          src='/images/gimbap-pose.jpg'
           alt='Hero Image'
         />
       </div>

@@ -7,7 +7,7 @@ const About = () => (
       <div className='grid grid-cols-2 gap-4 mt-8 lg:col-span-2'>
         <img
           className='w-full rounded-lg'
-          src='images/gimbap.jpg'
+          src='images/gimbap-preroll.jpg'
           alt='office content 1'
         />
         <img

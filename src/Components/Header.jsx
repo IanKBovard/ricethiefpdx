@@ -46,16 +46,16 @@ const Nav = () => {
             </li>
             <li className='my-8 uppercase text-brand-red'>
               <NavLink
-                to='/contact'
+                to='/menu'
                 onClick={() => setIsNavOpen(!isNavOpen)}>
-                Contact
+                Menu
               </NavLink>
             </li>
             <li className='my-8 uppercase text-brand-red'>
               <NavLink
-                to='/menu'
+                to='/contact'
                 onClick={() => setIsNavOpen(!isNavOpen)}>
-                Menu
+                Contact
               </NavLink>
             </li>
           </ul>
@@ -85,15 +85,15 @@ const Nav = () => {
             className={({ isActive }) => {
               return `hover:underline text-brand-red ${isActive ? 'underline' : null}`
             }}
-            to='/Contact'>
-            Contact
+            to='/menu'>
+            Menu
           </NavLink>
         </li>
         <li>
           <a
             className='w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-brand-red text-brand-white hover:text-brand-red hover:bg-brand-pink disabled:opacity-50 disabled:pointer-events-none'
-            href='/menu'>
-            Menu
+            href='/contact'>
+            Contact
           </a>
         </li>
       </ul>

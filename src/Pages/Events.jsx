@@ -9,31 +9,19 @@ const Events = () => (
       <div className='-my-4 divide-y divide-brand-black'>
         <div className='flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center'>
           <p className='sm:w-32 text-lg font-semibold sm:text-right shrink-0'>
-            FRI April 26 4pm - 11pm
-          </p>
-          <h3 className='text-lg '>
-            <a
-              href='https://www.pdxnm.com'
-              rel='noreferrer noopener'
-              target='_blank'
-              className='hover:underline'>
-              Portland Night Market
-              <p>100 SE Alder Street Portland, OR 97214</p>
-            </a>
-          </h3>
-        </div>
-        <div className='flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center'>
-          <p className='sm:w-32 text-lg font-semibold sm:text-right shrink-0'>
-            SAT April 27 4pm - 11pm
+            SAT July 13 2pm - 10pm
           </p>
           <h3 className='text-lg'>
             <a
-              href='https://www.pdxnm.com'
+              href='https://www.thewhitelotusfoundation.org/summer-market/'
               rel='noreferrer noopener'
               target='_blank'
               className='hover:underline'>
-              Portland Night Market
-              <p>100 SE Alder Street Portland, OR 97214</p>
+              White Lotus Foundation Summer Market
+              <p>
+                Shun Fat Supermarket 5253 SE 82nd Ave, Portland, OR
+                97266
+              </p>
             </a>
           </h3>
         </div>
@@ -79,6 +67,38 @@ const Events = () => (
               className='hover:underline'>
               Legendary Makers Market II @The Round
               <p>12600 SW Crescent Street Beaverton, OR 97005</p>
+            </a>
+          </h3>
+        </div>
+        <div className='flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center'>
+          <p className='sm:w-32 text-lg font-semibold sm:text-right shrink-0'>
+            SUN July 28 11am - 4pm
+          </p>
+          <h3 className='text-lg'>
+            <a
+              href='https://www.legendarymakersmarket.com/'
+              rel='noreferrer noopener'
+              target='_blank'
+              className='hover:underline'>
+              Legendary Makers Market II @The Round
+              <p>12600 SW Crescent Street Beaverton, OR 97005</p>
+            </a>
+          </h3>
+        </div>
+        <div className='flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center'>
+          <p className='sm:w-32 text-lg font-semibold sm:text-right shrink-0'>
+            SAT August 10 3pm - 10pm
+          </p>
+          <h3 className='text-lg'>
+            <a
+              href='https://jadedistrict.org/jade-international-night-market-2024'
+              rel='noreferrer noopener'
+              target='_blank'
+              className='hover:underline'>
+              Jade International Night Market
+              <p>
+                PCC SE Campus 2305 SE 82nd Ave, Portland, OR 97216
+              </p>
             </a>
           </h3>
         </div>

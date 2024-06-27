@@ -7,6 +7,30 @@ const Gallery = () => (
       <a
         target='_blank'
         rel='noopener noreferrer'
+        href='https://www.instagram.com/p/C62eRRbrzzX/'>
+        <img
+          className='max-h-full max-w-full rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer'
+          src='/images/instaPost7.svg'
+          alt=''
+          target='_blank'
+          rel='noopener noreferrer'
+        />
+      </a>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        href='https://www.instagram.com/p/C6AcUf0reV0/'>
+        <img
+          className='max-h-full max-w-full rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer'
+          src='/images/instaPost6.svg'
+          alt=''
+          target='_blank'
+          rel='noopener noreferrer'
+        />
+      </a>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
         href='https://www.instagram.com/p/Cw8iiBFSACV/'>
         <img
           className='max-h-full max-w-full rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer'
