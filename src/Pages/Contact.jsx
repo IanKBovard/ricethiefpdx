@@ -1,25 +1,28 @@
 const Contact = () => (
   <section className='max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-8'>
-    <div className='max-w-3xl mx-auto text-center'>
-      <h2 className='text-4xl font-extrabold leading-tight tracking-tight text-brand-black mb-8 md:mb-10'>
-        Let's connect!
-      </h2>
-    </div>
     <div className='flex flex-wrap justify-between'>
       <div className='mb-8 lg:mb-0'>
-        <p className='text-xl lg:text-2xl'>
-          Hillsdale Farmers' Market
+        <h2 className='font-bold text-2xl lg:text-4xl mb-2'>
+          Where to find us
+        </h2>
+        <p className='text-lg lg:text-2xl'>
+          PSU Portland Farmers Market
           <br />
-          Sundays 9am-1pm
+          Saturdays 8:30 am - 2:00 pm
           <br />
-          1405 S Vermont Street, Portland, OR 97219
+          1803 SW Park Ave, Portland, OR 97201
           <br />
           <span className='italic'>
-            located in Rieke Elementary parking lot
+            Located at the South Park Blocks
+            <br />
+            b/t SW College St & Montgomery St
           </span>
         </p>
       </div>
-      <div className=''>
+      <div className='mb-8 lg:mb-0'>
+        <h2 className='font-bold text-2xl lg:text-4xl mb-2'>
+          How to reach us
+        </h2>
         <a
           href='https://www.instagram.com/ricethiefpdx/'
           rel='noreferrer noopener'
@@ -35,7 +38,7 @@ const Contact = () => (
               clipRule='evenodd'
             />
           </svg>
-          <span className='text-xl ml-1.5 group-hover:underline'>
+          <span className='text-lg lg:text-2xl ml-1.5 group-hover:underline'>
             ricethiefpdx
           </span>
         </a>
@@ -55,7 +58,7 @@ const Contact = () => (
             <path d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'></path>
             <polyline points='22,6 12,13 2,6'></polyline>
           </svg>
-          <span className='text-xl ml-1.5 group-hover:underline'>
+          <span className='text-lg lg:text-2xl ml-1.5 group-hover:underline'>
             ricethiefpdx@gmail.com
           </span>
         </a>

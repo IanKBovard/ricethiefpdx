@@ -1,4 +1,9 @@
-import { Contact, Events, Home, Menu } from './Pages'
+import {
+  Contact,
+  ProudlySourcedIngredients,
+  Home,
+  Menu,
+} from './Pages'
 import {
   BrowserRouter,
   Routes,
@@ -9,14 +14,17 @@ import { Header, Footer } from './Components'
 
 const App = () => {
   return (
-    <div className='container mx-auto mb-8 px-8 font-lora-regular'>
+    <div className='mx-auto mb-8 px-8 font-lora-regular'>
       <BrowserRouter>
         <Header />
         <Routes>
           <Route path='*' element={<Navigate to='/' />} />
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/events' element={<Events />} />
+          <Route
+            path='/proudlysourcedingredients'
+            element={<ProudlySourcedIngredients />}
+          />
           <Route path='/menu' element={<Menu />} />
         </Routes>
         <Footer />

@@ -19,10 +19,10 @@ const Footer = () => {
           </li>
           <li>
             <Link
-              to='/events'
+              to='/Menu'
               className=' hover:underline'
               onClick={scrollToTop}>
-              Events
+              Menu
             </Link>
           </li>
           <li>
@@ -35,10 +35,10 @@ const Footer = () => {
           </li>
           <li>
             <Link
-              to='/menu'
+              to='/proudlysourcedingredients'
               className=' hover:underline'
               onClick={scrollToTop}>
-              Menu
+              Proudly Sourced Ingredients
             </Link>
           </li>
         </ul>

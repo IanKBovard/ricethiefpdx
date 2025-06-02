@@ -39,13 +39,6 @@ const Nav = () => {
             </li>
             <li className='my-8 uppercase text-brand-red'>
               <NavLink
-                to='/events'
-                onClick={() => setIsNavOpen(!isNavOpen)}>
-                Events
-              </NavLink>
-            </li>
-            <li className='my-8 uppercase text-brand-red'>
-              <NavLink
                 to='/menu'
                 onClick={() => setIsNavOpen(!isNavOpen)}>
                 Menu
@@ -55,7 +48,14 @@ const Nav = () => {
               <NavLink
                 to='/contact'
                 onClick={() => setIsNavOpen(!isNavOpen)}>
-                Contact
+                contact
+              </NavLink>
+            </li>
+            <li className='my-8 uppercase text-brand-red'>
+              <NavLink
+                to='/proudlysourcedingredients'
+                onClick={() => setIsNavOpen(!isNavOpen)}>
+                Proudly Sourced
               </NavLink>
             </li>
           </ul>
@@ -76,8 +76,8 @@ const Nav = () => {
             className={({ isActive }) => {
               return `hover:underline text-brand-red ${isActive ? 'underline' : null}`
             }}
-            to='/events'>
-            Events
+            to='/menu'>
+            Menu
           </NavLink>
         </li>
         <li>
@@ -85,15 +85,15 @@ const Nav = () => {
             className={({ isActive }) => {
               return `hover:underline text-brand-red ${isActive ? 'underline' : null}`
             }}
-            to='/menu'>
-            Menu
+            to='/contact'>
+            Contact
           </NavLink>
         </li>
         <li>
           <a
             className='w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-brand-red text-brand-white hover:text-brand-red hover:bg-brand-pink disabled:opacity-50 disabled:pointer-events-none'
-            href='/contact'>
-            Contact
+            href='/proudlysourcedingredients'>
+            Proudly Sourced Ingredients
           </a>
         </li>
       </ul>
@@ -108,6 +108,9 @@ const Header = () => {
         href='/'
         className='text-brand-red font-agbalumo-regular uppercase p-1 border hover:border-brand-red border-brand-bg text-5xl'>
         <span>Rice Thief</span>
+        <p className='text-lg text-brand-black font-serif lowercase'>
+          korean deli serving seasonal banchan
+        </p>
       </a>
       <Nav />
     </div>
