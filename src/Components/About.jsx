@@ -1,6 +1,6 @@
 const About = () => (
   <section className='max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-8'>
-    <h2 className='font-bold text-2xl sm:text-3xl lg:text-4xl text-center text-nowrap'>
+    <h2 className='font-bold text-2xl sm:text-3xl lg:text-4xl text-center'>
       Ingredients you can feel good about
     </h2>
     <div className='gap-16 items-center mx-auto xl:grid xl:grid-cols-5'>

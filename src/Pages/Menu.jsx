@@ -1,7 +1,7 @@
 const Menu = () => (
   <section className='max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-8'>
     <div className='max-w-3xl mx-auto text-center mb-4'>
-      <h2 className='font-bold text-2xl lg:text-4xl text-center text-nowrap'>
+      <h2 className='font-bold text-2xl lg:text-4xl text-center'>
         PSU Portland Farmers Market Menu
       </h2>
     </div>
