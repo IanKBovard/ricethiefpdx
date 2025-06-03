@@ -27,7 +27,7 @@ const About = () => (
         </p>
         <br />
         <p className='text-justify md:text-2xl italic'>
-          Rice Thief, or bap do duk (밥도둑), refers to food so
+          Rice Thief, or bap do duk (밥도둑), refers to banchan so
           delicious that it steals the rice you must eat with it.
         </p>
       </div>

@@ -14,7 +14,7 @@ const ProudlySourcedIngredients = () => (
           to organic/pesticide-free agricultural practices:
         </p>
       </div>
-      <div className='flex flex-col mt-6 ml-6 gap-1'>
+      <div className='flex flex-col mt-6 gap-1'>
         <p className='md:text-xl'>
           <a
             href='https://www.instagram.com/barnfrogfarms/'
@@ -86,7 +86,7 @@ const ProudlySourcedIngredients = () => (
           We are also proud to source from these local businesses:
         </p>
       </div>
-      <div className='flex flex-col mt-6 ml-6 gap-1'>
+      <div className='flex flex-col mt-6 gap-1'>
         <p className='md:text-xl'>
           <a
             href='https://www.otapdx.com/'
