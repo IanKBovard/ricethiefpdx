@@ -15,7 +15,7 @@ const Menu = () => (
           seasonal banchan, roasted seaweed, & choice of:
           <p className='mt-1'>
             <span className='font-semibold'>
-              36-hr marinated local mayak egg
+              36-hr marinated local mayak egg (v)
             </span>
           </p>
           <p className=''>
@@ -26,32 +26,32 @@ const Menu = () => (
           </p>
         </p>
       </div>
-      <div className='flex flex-col pt-2 sm:gap-10 sm:flex-row'>
+      <div className='flex flex-col pt-2 sm:gap-10 sm:flex-row mt-2'>
         <p className='sm:w-[200px] text-lg lg:text-2xl font-semibold sm:text-right shrink-0'>
-          banchan (v+)
+          seasonal banchan by the jar
         </p>
         <p className='text-justify sm:text-left lg:text-lg'>
-          korean side dishes lovingly made from scratch - rotated
-          weekly/seasonally using locally sourced ingredients
+          small-batch preserved & pickled dishes made lovingly from
+          scratch with local market veggies
           <p className='mt-1'>
             <span className='font-semibold'>kimchi</span> - fermented
-            & probiotic-rich
+            & probiotic-rich (v+ gf)
           </p>
           <p className=''>
             <span className='font-semibold'>jangajji</span> - sweet
-            soy pickle
+            soy pickle (v+)
           </p>
           <p className=''>
             <span className='font-semibold'>muchim</span> - seasoned
-            sesame salad
+            sesame salad (v+ gf)
           </p>
           <p className=''>
             <span className='font-semibold'>jorim</span> - sweet soy
-            braise
+            braise (v+)
           </p>
         </p>
       </div>
-      <div className='flex flex-col pt-2 sm:gap-10 sm:flex-row'>
+      <div className='flex flex-col pt-2 sm:gap-10 sm:flex-row mt-2'>
         <p className='sm:w-[200px] text-lg lg:text-2xl font-semibold sm:text-right shrink-0'>
           boricha
         </p>

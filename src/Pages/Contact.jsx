@@ -2,7 +2,7 @@ const Contact = () => (
   <section className='max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-8'>
     <div className='flex flex-wrap justify-between'>
       <div className='mb-8 lg:mb-0'>
-        <h2 className='font-bold text-2xl lg:text-4xl mb-2'>
+        <h2 className='font-bold text-2xl lg:text-4xl mb-4'>
           Where to find us
         </h2>
         <p className='text-lg lg:text-2xl'>
@@ -10,6 +10,8 @@ const Contact = () => (
           <br />
           Saturdays 8:30 am - 2:00 pm
           <br />
+        </p>
+        <p className='text-lg lg:text-2xl mt-2'>
           1803 SW Park Ave, Portland, OR 97201
           <br />
           <span className='italic'>
@@ -20,7 +22,7 @@ const Contact = () => (
         </p>
       </div>
       <div className='mb-8 lg:mb-0'>
-        <h2 className='font-bold text-2xl lg:text-4xl mb-2'>
+        <h2 className='font-bold text-2xl lg:text-4xl mb-4'>
           How to reach us
         </h2>
         <a
