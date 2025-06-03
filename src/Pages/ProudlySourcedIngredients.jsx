@@ -14,13 +14,13 @@ const ProudlySourcedIngredients = () => (
           to organic/pesticide-free agricultural practices:
         </p>
       </div>
-      <div className='flex flex-col mt-6 ml-6'>
+      <div className='flex flex-col mt-6 ml-6 gap-1'>
         <p className='md:text-xl'>
           <a
             href='https://www.instagram.com/barnfrogfarms/'
             rel='noreferrer noopener'
             target='_blank'
-            className='hover:underline'>
+            className='underline hover:no-underline'>
             Barn From Farm - Halsey, Oregon
           </a>
         </p>
@@ -29,7 +29,7 @@ const ProudlySourcedIngredients = () => (
             href='https://www.instagram.com/bairdfamilyorchards/'
             rel='noreferrer noopener'
             target='_blank'
-            className='hover:underline'>
+            className='underline hover:no-underline'>
             Baird Family Orchards - Yamhill County, Oregon
           </a>
         </p>
@@ -38,7 +38,7 @@ const ProudlySourcedIngredients = () => (
             href='https://www.gatheringtogetherfarm.com/'
             rel='noreferrer noopener'
             target='_blank'
-            className='hover:underline'>
+            className='underline hover:no-underline'>
             Gathering Together Farm - Philomath, OR
           </a>
         </p>
@@ -47,7 +47,7 @@ const ProudlySourcedIngredients = () => (
             href='https://eloisaorganicfarm.com/'
             rel='noreferrer noopener'
             target='_blank'
-            className='hover:underline'>
+            className='underline hover:no-underline'>
             Eloisa Organic Farm - Albany, OR
           </a>
         </p>
@@ -56,7 +56,7 @@ const ProudlySourcedIngredients = () => (
             href='https://www.groundworkorganics.com/'
             rel='noreferrer noopener'
             target='_blank'
-            className='hover:underline'>
+            className='underline hover:no-underline'>
             Groundwork Organics - Junction City, OR
           </a>
         </p>
@@ -65,7 +65,7 @@ const ProudlySourcedIngredients = () => (
             href='https://www.moramorafarm.com/'
             rel='noreferrer noopener'
             target='_blank'
-            className='hover:underline'>
+            className='underline hover:no-underline'>
             Mora Mora Farm - Troutdale, OR
           </a>
         </p>
@@ -74,7 +74,7 @@ const ProudlySourcedIngredients = () => (
             href='https://www.sunriseorganicfarmllc.com/'
             rel='noreferrer noopener'
             target='_blank'
-            className='hover:underline'>
+            className='underline hover:no-underline'>
             Sunrise Organic Farm - Albany, OR
           </a>
         </p>
@@ -86,13 +86,13 @@ const ProudlySourcedIngredients = () => (
           We are also proud to source from these local businesses:
         </p>
       </div>
-      <div className='flex flex-col mt-6  ml-6'>
+      <div className='flex flex-col mt-6 ml-6 gap-1'>
         <p className='md:text-xl'>
           <a
             href='https://www.otapdx.com/'
             rel='noreferrer noopener'
             target='_blank'
-            className='hover:underline'>
+            className='underline hover:no-underline'>
             Ota Tofu - Portland, OR
           </a>
         </p>
@@ -101,7 +101,7 @@ const ProudlySourcedIngredients = () => (
             href='https://wilcoxfarms.com/'
             rel='noreferrer noopener'
             target='_blank'
-            className='hover:underline'>
+            className='underline hover:no-underline'>
             Wilcox Family Farms - Aurora, OR
           </a>
         </p>
