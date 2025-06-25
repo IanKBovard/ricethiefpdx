@@ -8,27 +8,42 @@ const Menu = () => (
     <div className='max-w-3xl mx-auto mt-2'>
       <div className='flex flex-col pt-2 sm:gap-10 sm:flex-row'>
         <p className='sm:w-[200px] text-lg lg:text-2xl font-semibold sm:text-right shrink-0 text-nowrap'>
-          bokkeum bap bowl
+          gimbap (v+)
         </p>
         <p className='text-justify lg:text-lg sm:text-left'>
-          toasted sesame rice, spicy soy dressed market greens,
-          seasonal banchan, roasted seaweed, & choice of:
+          toasted seaweed & sesame rice roll w/Korean BBQ Ota Tofu,
+          braised burdock, seasonal namul, seasonal pickle, sautéed
+          kimchi, ssamjang, perilla - served w/housemade dipping sauce
           <p className='mt-1'>
             <span className='font-semibold'>
-              36-hr marinated local mayak egg (v)
+              + side seasonal banchan (2 oz)
             </span>
           </p>
           <p className=''>
             <span className='font-semibold'>
               {' '}
-              korean bbq ota tofu (v+)
+              + extra dipping sauce
             </span>
           </p>
         </p>
       </div>
       <div className='flex flex-col pt-2 sm:gap-10 sm:flex-row mt-2'>
         <p className='sm:w-[200px] text-lg lg:text-2xl font-semibold sm:text-right shrink-0'>
-          seasonal banchan by the jar
+          boricha
+        </p>
+        <p className='text-justify sm:text-left w-full lg:text-lg'>
+          house-roasted barley tea made w/organic locally sourced
+          grains (no caffeine, unsweetened)
+          <p className='mt-1'>
+            <span className='font-semibold'>
+              + Cloudforest vanilla infused oat milk
+            </span>
+          </p>
+        </p>
+      </div>
+      <div className='flex flex-col pt-2 sm:gap-10 sm:flex-row mt-2'>
+        <p className='sm:w-[200px] text-lg lg:text-2xl font-semibold sm:text-right shrink-0'>
+          seasonal banchan by the jar (v+)
         </p>
         <p className='text-justify sm:text-left lg:text-lg'>
           small-batch preserved & pickled dishes made lovingly from
@@ -49,14 +64,6 @@ const Menu = () => (
             <span className='font-semibold'>jorim</span> - sweet soy
             braise (v+)
           </p>
-        </p>
-      </div>
-      <div className='flex flex-col pt-2 sm:gap-10 sm:flex-row mt-2'>
-        <p className='sm:w-[200px] text-lg lg:text-2xl font-semibold sm:text-right shrink-0'>
-          boricha
-        </p>
-        <p className='text-justify sm:text-left w-full lg:text-lg'>
-          roasted barley tea - served hot or cold
         </p>
       </div>
     </div>

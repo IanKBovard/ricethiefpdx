@@ -19,7 +19,7 @@ const Hero = () => (
       <div className='lg:col-span-3 mt-10 lg:mt-0'>
         <img
           className='w-full rounded-xl'
-          src='/images/psu-stand.jpg'
+          src='/images/gimbap-chop.jpg'
           alt='Hero Image'
         />
       </div>

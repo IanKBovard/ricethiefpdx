@@ -1,7 +1,13 @@
 const Gallery = () => (
   <section className='max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-8'>
     <h2 className='mb-6 lg:mb-12 text-2xl md:text-4xl font-bold text-center'>
-      Follow me on Instagram
+      <a
+        href='https://www.instagram.com/ricethiefpdx/'
+        rel='noreferrer noopener'
+        target='_blank'
+        className='underline hover:no-underline'>
+        Follow me on Instagram
+      </a>
     </h2>
     <div className='grid grid-cols-2 md:grid-cols-5 gap-4'>
       <a

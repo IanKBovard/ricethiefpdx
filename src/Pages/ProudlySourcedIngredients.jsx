@@ -17,15 +17,6 @@ const ProudlySourcedIngredients = () => (
       <div className='flex flex-col mt-6 gap-1'>
         <p className='md:text-xl'>
           <a
-            href='https://www.instagram.com/barnfrogfarms/'
-            rel='noreferrer noopener'
-            target='_blank'
-            className='underline hover:no-underline'>
-            Barn From Farm - Halsey, Oregon
-          </a>
-        </p>
-        <p className='md:text-xl'>
-          <a
             href='https://www.instagram.com/bairdfamilyorchards/'
             rel='noreferrer noopener'
             target='_blank'
@@ -35,11 +26,29 @@ const ProudlySourcedIngredients = () => (
         </p>
         <p className='md:text-xl'>
           <a
+            href='https://www.instagram.com/barnfrogfarms/'
+            rel='noreferrer noopener'
+            target='_blank'
+            className='underline hover:no-underline'>
+            Barn Frog Farm - Halsey, Oregon
+          </a>
+        </p>
+        <p className='md:text-xl'>
+          <a
             href='https://www.gatheringtogetherfarm.com/'
             rel='noreferrer noopener'
             target='_blank'
             className='underline hover:no-underline'>
             Gathering Together Farm - Philomath, OR
+          </a>
+        </p>
+        <p className='md:text-xl'>
+          <a
+            href='https://geecreekfarm.org/'
+            rel='noreferrer noopener'
+            target='_blank'
+            className='underline hover:no-underline'>
+            Gee Creek Farm - Ridgefield, WA
           </a>
         </p>
         <p className='md:text-xl'>
@@ -87,6 +96,15 @@ const ProudlySourcedIngredients = () => (
         </p>
       </div>
       <div className='flex flex-col mt-6 gap-1'>
+        <p className='md:text-xl'>
+          <a
+            href='https://www.cloudforest.shop/'
+            rel='noreferrer noopener'
+            target='_blank'
+            className='underline hover:no-underline'>
+            Cloudforest - Portland, OR
+          </a>
+        </p>
         <p className='md:text-xl'>
           <a
             href='https://www.otapdx.com/'
