@@ -13,6 +13,54 @@ const Gallery = () => (
       <a
         target='_blank'
         rel='noopener noreferrer'
+        href='https://www.instagram.com/p/DLs6JhGhIgl/'>
+        <img
+          className='max-h-full max-w-full rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer'
+          src='/images/instaPost-tomatoes.svg'
+          alt=''
+          target='_blank'
+          rel='noopener noreferrer'
+        />
+      </a>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        href='https://www.instagram.com/p/DLX8-Nwyb0g/'>
+        <img
+          className='max-h-full max-w-full rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer'
+          src='/images/instaPost-gimbapback.svg'
+          alt=''
+          target='_blank'
+          rel='noopener noreferrer'
+        />
+      </a>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        href='https://www.instagram.com/p/DK3G4Zoy5it/'>
+        <img
+          className='max-h-full max-w-full rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer'
+          src='/images/instaPost-oimuchim.svg'
+          alt=''
+          target='_blank'
+          rel='noopener noreferrer'
+        />
+      </a>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        href='https://www.instagram.com/p/DKlCQpbyinG/'>
+        <img
+          className='max-h-full max-w-full rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer'
+          src='/images/instaPost-muchim.svg'
+          alt=''
+          target='_blank'
+          rel='noopener noreferrer'
+        />
+      </a>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
         href='https://www.instagram.com/p/DKAyZrNhDBl/'>
         <img
           className='max-h-full max-w-full rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer'
@@ -140,28 +188,6 @@ const Gallery = () => (
           alt=''
           target='_blank'
           rel='noopener noreferrer'
-        />
-      </a>
-      <a
-        target='_blank'
-        rel='noopener noreferrer'
-        href='https://instagram.com/p/Cr4roIqL6fJ/'>
-        <img
-          className='max-h-full max-w-full rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer'
-          src='/images/instaPost-beavertonMenu.svg'
-          alt=''
-          target='_blank'
-          rel='noopener noreferrer'
-        />
-      </a>
-      <a
-        target='_blank'
-        rel='noopener noreferrer'
-        href='https://www.instagram.com/p/CrhIMmNvf_Z'>
-        <img
-          className='max-w-full rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer object-cover'
-          src='/images/instaPost-beaverton.svg'
-          alt=''
         />
       </a>
     </div>
