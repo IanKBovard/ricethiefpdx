@@ -6,20 +6,22 @@ const Hero = () => (
           Seasonally inspired banchan made from scratch
         </h1>
         <p className='mt-2 text-brand-black md:text-3xl text-wrap'>
-          Visit us Saturdays at PSU Portland Farmers Market
+          Sunday pickup in NE Portland now available
         </p>
         <div className='mt-4'>
           <a
-            className='w-autoc py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-brand-red text-brand-white hover:text-brand-red hover:bg-brand-pink disabled:opacity-50 disabled:pointer-events-none'
-            href='/menu'>
-            VIEW MENU
+            target='blank'
+            rel='noopener noreferrer'
+            className='w-autoc py-3 px-4 inline-flex justify-center items-center gap-x-2 text-xl font-semibold rounded-lg border border-transparent bg-brand-red text-brand-white hover:text-brand-red hover:bg-brand-pink disabled:opacity-50 disabled:pointer-events-none'
+            href='https://ricethiefpdx.square.site/'>
+            ORDER NOW
           </a>
         </div>
       </div>
       <div className='lg:col-span-3 mt-10 lg:mt-0'>
         <img
           className='w-full rounded-xl'
-          src='/images/gimbap-chop.jpg'
+          src='/images/kimchi-hero.svg'
           alt='Hero Image'
         />
       </div>

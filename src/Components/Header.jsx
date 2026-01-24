@@ -30,6 +30,15 @@ const Nav = () => {
             </svg>
           </div>
           <ul className='MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px] text-3xl'>
+            <li>
+              <a
+                target='blank'
+                rel='noopener noreferrer'
+                className='w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-3xl font-semibold rounded-lg border border-transparent bg-brand-red text-brand-white hover:text-brand-red hover:bg-brand-pink disabled:opacity-50 disabled:pointer-events-none'
+                href='https://ricethiefpdx.square.site/'>
+                ORDER NOW
+              </a>
+            </li>
             <li className='my-8 uppercase text-brand-red'>
               <NavLink
                 to='/'
@@ -90,10 +99,21 @@ const Nav = () => {
           </NavLink>
         </li>
         <li>
-          <a
-            className='w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-brand-red text-brand-white hover:text-brand-red hover:bg-brand-pink disabled:opacity-50 disabled:pointer-events-none'
-            href='/proudlysourcedingredients'>
+          <NavLink
+            className={({ isActive }) => {
+              return `hover:underline text-brand-red ${isActive ? 'underline' : null}`
+            }}
+            to='/proudlysourcedingredients'>
             Proudly Sourced Ingredients
+          </NavLink>
+        </li>
+        <li>
+          <a
+            target='blank'
+            rel='noopener noreferrer'
+            className='w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-brand-red text-brand-white hover:text-brand-red hover:bg-brand-pink disabled:opacity-50 disabled:pointer-events-none'
+            href='https://ricethiefpdx.square.site/'>
+            ORDER NOW
           </a>
         </li>
       </ul>
