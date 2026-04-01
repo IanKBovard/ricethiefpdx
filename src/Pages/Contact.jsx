@@ -29,7 +29,8 @@ const Contact = () => (
               Hillsdale Farmers’ Market
             </a>
             <br />
-            Sundays 9:00 am - 1:00 pm (bi-weekly)
+            Sundays 9:00 am - 1:00 pm{' '}
+            <span className='italic'>(bi-weekly)</span>
             <br />
           </p>
         </div>
@@ -40,8 +41,7 @@ const Contact = () => (
               rel='noreferrer noopener'
               target='_blank'
               className='underline hover:no-underline font-bold'>
-              Alberta Co-operative Kitchen{' '}
-              <span className='italic'>(Alberta St + 16th Ave)</span>
+              Alberta Co-operative Kitchen (Alberta St + 16th Ave)
             </a>
             <br />
             *banchan pre-order pickup only*
