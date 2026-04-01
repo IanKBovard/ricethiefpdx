@@ -6,7 +6,7 @@ const Hero = () => (
           Seasonally inspired banchan made from scratch
         </h1>
         <p className='mt-2 text-brand-black md:text-3xl text-wrap'>
-          Sunday pickup in NE Portland now available
+          Farmers market and kitchen pickup now available
         </p>
         <div className='mt-4'>
           <a

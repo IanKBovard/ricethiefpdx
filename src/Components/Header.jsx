@@ -39,28 +39,28 @@ const Nav = () => {
                 ORDER NOW
               </a>
             </li>
-            <li className='my-8 uppercase text-brand-red'>
+            <li className='my-8 uppercase text-brand-red hover:underline'>
               <NavLink
                 to='/'
                 onClick={() => setIsNavOpen(!isNavOpen)}>
                 Home
               </NavLink>
             </li>
-            <li className='my-8 uppercase text-brand-red'>
+            <li className='my-8 uppercase text-brand-red hover:underline'>
               <NavLink
                 to='/menu'
                 onClick={() => setIsNavOpen(!isNavOpen)}>
                 Menu
               </NavLink>
             </li>
-            <li className='my-8 uppercase text-brand-red'>
+            <li className='my-8 uppercase text-brand-red hover:underline'>
               <NavLink
                 to='/contact'
                 onClick={() => setIsNavOpen(!isNavOpen)}>
                 contact
               </NavLink>
             </li>
-            <li className='my-8 uppercase text-brand-red'>
+            <li className='my-8 uppercase text-brand-red hover:underline'>
               <NavLink
                 to='/proudlysourcedingredients'
                 onClick={() => setIsNavOpen(!isNavOpen)}>
@@ -70,7 +70,7 @@ const Nav = () => {
           </ul>
         </div>
       </section>
-      <ul className='DESKTOP-MENU hidden space-x-8 lg:flex items-center font-semibold'>
+      <ul className='DESKTOP-MENU hidden space-x-8 lg:flex items-center font-semibold text-lg xl:text-2xl text-nowrap'>
         <li>
           <NavLink
             className={({ isActive }) => {
@@ -111,7 +111,7 @@ const Nav = () => {
           <a
             target='blank'
             rel='noopener noreferrer'
-            className='w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-brand-red text-brand-white hover:text-brand-red hover:bg-brand-pink disabled:opacity-50 disabled:pointer-events-none'
+            className='w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-lg font-semibold rounded-lg border border-transparent bg-brand-red text-brand-white hover:text-brand-red hover:bg-brand-pink disabled:opacity-50 disabled:pointer-events-none text-nowrap'
             href='https://ricethiefpdx.square.site/'>
             ORDER NOW
           </a>
@@ -126,9 +126,9 @@ const Header = () => {
     <div className='flex items-center justify-between border-b border-brand-red py-4 mb-4'>
       <a
         href='/'
-        className='text-brand-red font-agbalumo-regular uppercase p-1 border hover:border-brand-red border-brand-bg text-5xl'>
+        className='text-brand-red font-agbalumo-regular uppercase p-1 border hover:border-brand-red border-brand-bg text-4xl lg:text-5xl '>
         <span>Rice Thief</span>
-        <p className='text-lg text-brand-black font-serif lowercase'>
+        <p className=' text-sm lg:text-xl text-brand-black font-serif lowercase '>
           korean deli serving seasonal banchan
         </p>
       </a>

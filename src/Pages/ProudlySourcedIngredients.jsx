@@ -14,8 +14,8 @@ const ProudlySourcedIngredients = () => (
           to organic/pesticide-free agricultural practices:
         </p>
       </div>
-      <div className='flex flex-col mt-6 gap-1'>
-        <p className='md:text-xl'>
+      <div className='flex flex-col mt-6 gap-1 md:text-2xl'>
+        <p>
           <a
             href='https://www.instagram.com/bairdfamilyorchards/'
             rel='noreferrer noopener'
@@ -24,7 +24,7 @@ const ProudlySourcedIngredients = () => (
             Baird Family Orchards - Yamhill County, Oregon
           </a>
         </p>
-        <p className='md:text-xl'>
+        <p>
           <a
             href='https://www.instagram.com/barnfrogfarms/'
             rel='noreferrer noopener'
@@ -33,25 +33,16 @@ const ProudlySourcedIngredients = () => (
             Barn Frog Farm - Halsey, Oregon
           </a>
         </p>
-        <p className='md:text-xl'>
+        <p>
           <a
-            href='https://www.gatheringtogetherfarm.com/'
+            href='https://www.osohoneyfarm.com/'
             rel='noreferrer noopener'
             target='_blank'
             className='underline hover:no-underline'>
-            Gathering Together Farm - Philomath, OR
+            Ejido Oso Farm - Corvallis, OR
           </a>
         </p>
-        <p className='md:text-xl'>
-          <a
-            href='https://geecreekfarm.org/'
-            rel='noreferrer noopener'
-            target='_blank'
-            className='underline hover:no-underline'>
-            Gee Creek Farm - Ridgefield, WA
-          </a>
-        </p>
-        <p className='md:text-xl'>
+        <p>
           <a
             href='https://eloisaorganicfarm.com/'
             rel='noreferrer noopener'
@@ -60,7 +51,25 @@ const ProudlySourcedIngredients = () => (
             Eloisa Organic Farm - Albany, OR
           </a>
         </p>
-        <p className='md:text-xl'>
+        <p>
+          <a
+            href='https://www.gatheringtogetherfarm.com/'
+            rel='noreferrer noopener'
+            target='_blank'
+            className='underline hover:no-underline'>
+            Gathering Together Farm - Philomath, OR
+          </a>
+        </p>
+        <p>
+          <a
+            href='https://geecreekfarm.org/'
+            rel='noreferrer noopener'
+            target='_blank'
+            className='underline hover:no-underline'>
+            Gee Creek Farm - Ridgefield, WA
+          </a>
+        </p>
+        <p>
           <a
             href='https://www.groundworkorganics.com/'
             rel='noreferrer noopener'
@@ -69,7 +78,7 @@ const ProudlySourcedIngredients = () => (
             Groundwork Organics - Junction City, OR
           </a>
         </p>
-        <p className='md:text-xl'>
+        <p>
           <a
             href='https://www.moramorafarm.com/'
             rel='noreferrer noopener'
@@ -78,7 +87,7 @@ const ProudlySourcedIngredients = () => (
             Mora Mora Farm - Troutdale, OR
           </a>
         </p>
-        <p className='md:text-xl'>
+        <p>
           <a
             href='https://www.sunriseorganicfarmllc.com/'
             rel='noreferrer noopener'
@@ -95,17 +104,8 @@ const ProudlySourcedIngredients = () => (
           We are also proud to source from these local businesses:
         </p>
       </div>
-      <div className='flex flex-col mt-6 gap-1'>
-        <p className='md:text-xl'>
-          <a
-            href='https://www.cloudforest.shop/'
-            rel='noreferrer noopener'
-            target='_blank'
-            className='underline hover:no-underline'>
-            Cloudforest - Portland, OR
-          </a>
-        </p>
-        <p className='md:text-xl'>
+      <div className='flex flex-col mt-6 gap-1 md:text-2xl'>
+        <p className=''>
           <a
             href='https://www.otapdx.com/'
             rel='noreferrer noopener'
@@ -114,7 +114,7 @@ const ProudlySourcedIngredients = () => (
             Ota Tofu - Portland, OR
           </a>
         </p>
-        <p className='md:text-xl'>
+        <p className=''>
           <a
             href='https://wilcoxfarms.com/'
             rel='noreferrer noopener'

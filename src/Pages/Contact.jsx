@@ -1,26 +1,62 @@
 const Contact = () => (
   <section className='max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-8'>
     <div className='flex flex-wrap justify-between'>
-      <div className='mb-8 lg:mb-0'>
+      <div className='mb-8 lg:mb-0 flex flex-col'>
         <h2 className='font-bold text-2xl lg:text-4xl mb-4'>
           Where to find us
         </h2>
-        <p className='text-lg lg:text-2xl'>
-          PSU Portland Farmers Market
-          <br />
-          Saturdays 8:30 am - 2:00 pm
-          <br />
-        </p>
-        <p className='text-lg lg:text-2xl mt-2'>
-          1803 SW Park Ave, Portland, OR 97201
-          <br />
-          <span className='italic'>
-            Located at the South Park Blocks
+        <div className='mb-2'>
+          <p className='text-lg lg:text-2xl'>
+            <a
+              href='https://www.portlandfarmersmarket.org/our-markets/psu/ '
+              rel='noreferrer noopener'
+              target='_blank'
+              className='underline hover:no-underline font-bold'>
+              PSU Portland Farmers Market
+            </a>
             <br />
-            b/t SW College St & Montgomery St
-          </span>
-        </p>
+            Saturdays 8:30 am - 2:00 pm
+            <br />
+          </p>
+        </div>
+        <div className='mb-2'>
+          <p className='text-lg lg:text-2xl'>
+            <a
+              href=' https://www.hillsdalefarmersmarket.com/ '
+              rel='noreferrer noopener'
+              target='_blank'
+              className='underline hover:no-underline font-bold'>
+              Hillsdale Farmers’ Market
+            </a>
+            <br />
+            Sundays 9:00 am - 1:00 pm (bi-weekly)
+            <br />
+          </p>
+        </div>
+        <div className='mb-2'>
+          <p className='text-lg lg:text-2xl'>
+            <a
+              href=' https://ricethiefpdx.square.site/ '
+              rel='noreferrer noopener'
+              target='_blank'
+              className='underline hover:no-underline font-bold'>
+              Alberta Co-operative Kitchen{' '}
+              <span className='italic'>(Alberta St + 16th Ave)</span>
+            </a>
+            <br />
+            *banchan pre-order pickup only*
+            <br />
+            Thursdays 4:00 pm - 7:00 pm
+            <br />
+            Fridays 9:00 am - 1:00 pm
+            <br />
+            Sundays 9:00 am - 2:00 pm{' '}
+            <span className='italic'>(bi-weekly)</span>
+            <br />
+          </p>
+        </div>
       </div>
+
       <div className='mb-8 lg:mb-0'>
         <h2 className='font-bold text-2xl lg:text-4xl mb-4'>
           How to reach us

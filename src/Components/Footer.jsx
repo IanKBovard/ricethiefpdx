@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <hr className='my-6 border-brand-black sm:mx-auto' />
       <div className='mx-auto max-w-screen-xl text-center'>
-        <ul className='flex flex-wrap justify-center items-center mb-2 text-brand-black gap-2'>
+        <ul className='flex flex-wrap justify-center items-center mb-2 text-brand-black gap-2 text-lg lg:text-xl'>
           <li>
             <Link
               to='/'
@@ -42,6 +42,11 @@ const Footer = () => {
             </Link>
           </li>
         </ul>
+      </div>
+      <div className='text-brand-black flex flex-wrap justify-center text-center'>
+        <p className='text-sm lg:text-md'>
+          © 2024 RICE THIEF LLC. All Rights Reserved.
+        </p>
       </div>
       <div className='flex mt-2 gap-2 justify-center'>
         <a
